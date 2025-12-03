@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>JavaScript Quiz</h1>
+        <p>Test your knowledge and beat the timer!</p>
+    </header>
+
+    <section class="quiz-container">
+        <div id="timer">Time Left: 10s</div>
+
+        <div id="question"></div>
+        <div id="options"></div>
+
+        <div id="feedback"></div>
+
+        <button id="nextBtn" onclick="nextQuestion()">Next Question</button>
+    </section>
+
+    <footer>
+        <p id="score"></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
